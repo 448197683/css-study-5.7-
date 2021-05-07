@@ -1,0 +1,13 @@
+.contaier {
+  column-count: 6;
+  column-width: 200px;
+  column-rule: 2px dotted black;
+  column-gap: 50px;
+  text-align: justify;
+}
+h1 {
+  column-span: all;
+  text-align: center;
+  letter-spacing: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
